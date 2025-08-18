@@ -150,4 +150,63 @@ header .main-menu-open {
     text-shadow: 2px 5px 5px #00000042;
 }
 
+.informacoes {
+    width: 100%;
+}
+
+.informacoes .container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    flex-flow: row wrap;
+    gap: 20px;
+
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.informacoes .container .content {
+    flex: 1 1 200px;
+    align-content: center;
+    color: #4c4c4cb6;
+}
+
+.informacoes .container .card {
+    flex: 1 0 200px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+
+.informacoes .container .card a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.informacoes .container .card a .text-card span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+
+.informacoes .container .card a .text-card p {
+    font-size: 1em;
+    color: #4c4c4cb6;
+}
+
+.informacoes .container .card a .img-card {
+    height: 100%;
+    width: 40px;
+}
+
+.informacoes .container .card a .img-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
