@@ -4,11 +4,13 @@
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 body {
     height: 100vh;
     width: 100vw;
+    overflow-y: scroll;
 }
 
 header {
@@ -152,6 +154,7 @@ header .main-menu-open {
 
 .informacoes {
     width: 100%;
+    padding: 0 20px;
 }
 
 .informacoes .container {
@@ -164,7 +167,7 @@ header .main-menu-open {
 
     max-width: 1400px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .informacoes .container .content {
@@ -174,7 +177,7 @@ header .main-menu-open {
 }
 
 .informacoes .container .card {
-    flex: 1 0 200px;
+    flex: 1 0 170px;
     border-radius: 12px;
     border: 1px solid lightgray;
     padding: 15px;
@@ -209,4 +212,31 @@ header .main-menu-open {
     object-fit: cover;
 }
 
+.busca, .busca-inicial {
+    width: 100%;
+    padding: 20px;
+    background-color: #92D0D3;
+}
 
+.busca .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1400px;
+    margin: auto;
+}
+
+.busca .container .area-pesquisa {
+    flex: 0 1 35%;
+    border: 2px solid red;
+}
+
+.busca .container .area-pesquisa h2 {
+    font-size: 28px;
+    color: #3D959A;
+}
+
+.busca .container .box-busca {
+    flex: 0 1 65%;
+}
