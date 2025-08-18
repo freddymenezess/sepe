@@ -3,75 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        rel="stylesheet"
+    >
+    <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
+    />
     <link rel="stylesheet" href="src/styles/style.css">
     <title>SEPE</title>
 </head>
 <body>
     <header>
-        <div class="info-bar">
-            <nav class="info-bar-right">
-                <a href="#">LOGIN</a>
-                <a href="#">REGISTRE</a>
-                <a href="#" class="content-icon content-icon-facebook">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-                <a href="#" class="content-icon content-icon-youtube">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
+        <div class="row">
+            <div class="info-bar">
+                <nav class="info-bar-right">
+                    <a href="#" class="btn btn-login">LOGIN</a>
+                    <a href="#" class="btn">REGISTRE</a>
+                    <a href="#" class="content-icon content-icon-facebook">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="#" class="content-icon content-icon-youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </nav>
+            </div>
+            <nav class="nav-expand">
+                <div class="logo">
+                    <a href="index.html" class="nav-expand-logo">
+                        <img src="public/images/logo.png" alt="SEPE Logo">
+                    </a>
+                </div>
+                <div class="nav-expand-right">
+                    <ul>
+                        <li><a href="#">eServiços</a></li>
+                        <li><a href="#">+Serviços</a></li>
+                        <li><a href="#">eLoja</a></li>
+                        <li><a href="#">Agendando</a></li>
+                    </ul>
+                    <div class="icon-area-search">
+                        <i class="material-symbols-outlined icon-search icon">search</i>
+                    </div>
+                    <div class="icon-area-menu">
+                        <i class="material-symbols-outlined menu icon icon-menu">menu</i>
+                    </div>
+                </div>
+                <div class="main-menu-open">
+                    <div class="close-menu">
+                        <i class="material-symbols-outlined close">close</i>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" class="link">ESERVIÇOS</a>
+                            <i class="material-symbols-outlined search">arrow_right_alt</i>
+                        </li>
+                        <li>
+                            <a href="#" class="link">+SERVIÇOS</a>
+                            <i class="material-symbols-outlined search">arrow_right_alt</i>
+                        </li>
+                        <li>
+                            <a href="#" class="link">ELOJA</a>
+                            <i class="material-symbols-outlined search">arrow_right_alt</i>
+                        </li>
+                        <li>
+                            <a href="#" class="link">AGENDANDO</a>
+                            <i class="material-symbols-outlined search">arrow_right_alt</i>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
-        <nav class="nav-expand">
-            <div class="logo">
-                <a href="index.html" class="nav-expand-logo">
-                    <img src="public/images/logo.png" alt="SEPE Logo">
-                </a>
-            </div>
-            <div class="nav-expand-right">
-                <ul>
-                    <li><a href="#">eServiços</a></li>
-                    <li><a href="#">+Serviços</a></li>
-                    <li><a href="#">eLoja</a></li>
-                    <li><a href="#">Agendando</a></li>
-                </ul>
-                <div class="icon-search">
-                    <i class="material-symbols-outlined search">search</i>
-                </div>
-                <div class="icon-menu">
-                    <i class="material-symbols-outlined menu">menu</i>
-                </div>
-            </div>
-            <div class="main-menu-open">
-                <div class="close-menu">
-                    <i class="material-symbols-outlined close">close</i>    
-                </div>
-                <ul>
-                    <li>
-                        <a href="#" class="link">ESERVIÇOS</a>
-                        <i class="material-symbols-outlined search">arrow_right_alt</i>
-                    </li>
-                    <li>
-                        <a href="#" class="link">+SERVIÇOS</a>
-                        <i class="material-symbols-outlined search">arrow_right_alt</i>
-                    </li>
-                    <li>
-                        <a href="#" class="link">ELOJA</a>
-                        <i class="material-symbols-outlined search">arrow_right_alt</i>
-                    </li>
-                    <li>
-                        <a href="#" class="link">AGENDANDO</a>
-                        <i class="material-symbols-outlined search">arrow_right_alt</i>
-                    </li>
-                </ul>
-            </div>
-        </nav>
     </header>
     <section class="banner">
         <div class="text-banner">
             <div class="text-icon">
                 <h1>ENAPP</h1>
-                <i class="material-symbols-outlined">house_siding</i>
+                <div class="icon-house">
+                    <i class="material-symbols-outlined">house_siding</i>
+                </div>
             </div>
             <P>Abertura de Concurso Público de Ingresso</P>
         </div>
@@ -237,6 +247,43 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="assista">
+        <div class="row">
+            <div class="img-boneco"></div>
+            <div class="text-area">
+                <hr>
+                <div class="info">
+                    <h2>O SEPE traz os serviços do Governo para mais próximo dos cidadãos</h2>
+                    <p>O SEPE não é fonte de origem de serviços do Governo mas é a página que agrega todos serviços do Governo num só lugar. Para utilizar o SEPE deve estar registado, um processo que pode fazer agora através da internet e demora apenas 2 minutos. Aproveite para seguir as novidades do SEPE nas redes sociais, adicionando agora a sua preferida aqui:</p>
+                </div>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h4>Assista também no nosso canal do youtube</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="videos">
+        <div class="container">
+            <div class="col-1">
+                <a href="#" class="destaque">
+                    <img src="public/images/videos/lugar.png" alt="Imagem de uma pessoa com celular">
+                </a>
+                <div class="info">
+                    <h3>SEPE Registre</h3>
+                    <span>30</span>
+                </div>
+            </div>
+            <div class="lista-videos">
+                <a href="#">
+                    <img src="public/images/videos/cultura.png" alt="Imagem">
+                    <div class="media-body">
+
+                    </div>
+                </a>
             </div>
         </div>
     </section>

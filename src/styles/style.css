@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: 0 20px;
+    border-bottom: 3px solid #FF9D00;
+}
+
+header .row {
+    position: relative;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .info-bar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+header .info-bar-right a {
+    text-decoration: none;
+}
+
+header .info-bar-right .btn {
+    display: block;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    background-color: #959595;
+    border-radius: 14px;
+}
+
+header .info-bar-right .btn-login {
+    background-color: #FF9D00;
+}
+
+header .info-bar-right .fa-brands {
+    display: block;
+    font-size: 20px;
+    color: #FF9D00;
+}
+
+header .nav-expand {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+header .nav-expand .logo {
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .nav-expand ul {
+    display: inline-block;
+}
+
+header .nav-expand-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .nav-expand-right ul li {
+    display: inline-block;
+}
+
+header .nav-expand-right ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+header .nav-expand-right .icon-area-search, .icon-area-menu {
+    display: inline-block;
+}
+
+header .nav-expand-right .icon {
+    display: inline-block;
+    font-size: 30px;
+    color: #4C4C4C;
+    overflow: hidden;
+}
+
+header .main-menu-open {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    background: url('../../public/images/banner/woman-banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px;
+}
+
+.banner .text-banner {
+    flex-basis: 1200px;
+}
+
+.banner .text-icon {
+    position: relative;
+}
+
+.banner .text-icon h1 {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner .text-icon i {
+    position: absolute;
+    top: 4px;
+    left: 70px;
+    display: inline-block;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.banner .text-banner p {
+    font-size: 3em;
+    max-width: 600px;
+    text-shadow: 2px 5px 5px #00000042;
+}
+
+
