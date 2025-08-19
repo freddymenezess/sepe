@@ -811,6 +811,11 @@ header .main-menu-open {
     border-radius: 12px;
 }
 
+.inscrever .container .form-area .input-group input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px 8px #ff9d0052;
+}
+
 .inscrever .container .form-area .input-group button[type="submit"] {
     position: absolute;
     top: 30px;
