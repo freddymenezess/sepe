@@ -723,7 +723,7 @@ header .main-menu-open {
 
     flex: 0 0 50%;
     height: 100%;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .destaques-fim .box-services .col-1 {
@@ -735,7 +735,7 @@ header .main-menu-open {
 }
 
 .destaques-fim .box-services .info {
-    flex-basis: 600px;
+    flex-basis: 550px;
 
     color: white;
     z-index: 3;
