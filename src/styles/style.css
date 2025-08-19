@@ -511,7 +511,6 @@ header .main-menu-open {
     align-items: center;
     flex-flow: row nowrap;
 
-    height: 369px;
     flex: 1 1 100%;
 }
 
