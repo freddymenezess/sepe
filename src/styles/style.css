@@ -735,15 +735,18 @@ header .main-menu-open {
 }
 
 .destaques-fim .box-services .info {
-    flex-basis: 550px;
+    flex-basis: 630px;
 
     color: white;
+    padding-right: 20px;
     z-index: 3;
 }
 
 .destaques-fim .box-services .info h3 {
-    font-size: 2.5em;
-    padding-bottom: 20px;
+    font-size: 2.6em;
+    font-weight: 900;
+    line-height: 1;
+    padding-bottom: 40px;
 }
 
 .destaques-fim .box-services .info a {
